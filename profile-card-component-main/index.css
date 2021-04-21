@@ -1,0 +1,93 @@
+html,
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  /* background-image: url(./images/bg-pattern-bottom.svg), url(./images/bg-pattern-card.svg), url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    */
+  background-repeat: no-repeat;
+  background-color: hsl(185, 75%, 39%);
+}
+.bg {
+  background-image: url(./images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.contents {
+  background-color: white;
+  margin-top: 150px;
+  margin-left: 520px;
+  width: 30%;
+  height: 450px;
+  border-radius: 10px;
+}
+.image {
+  border-radius: 50px;
+  margin-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nameage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.name {
+  margin-right: 10px;
+}
+.age {
+  color: hsl(0, 0%, 59%);
+  font-size: 25px;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 59%);
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 19px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.followers,
+.likes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnf {
+  border: none;
+  outline: none;
+  background-color: hsl(185, 75%, 39%);
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+#btnl {
+  border: none;
+  outline: none;
+  background-color: hsl(185, 75%, 39%);
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  width: 50px;
+}
+#attribution {
+  color: white;
+  margin: 20px;
+  font-size: 19px;
+  margin-left: 500px;
+}
